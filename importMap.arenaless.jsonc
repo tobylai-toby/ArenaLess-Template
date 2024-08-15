@@ -1,0 +1,9 @@
+// 这是ArenaLess用于http导入的映射表
+// 用于实现与ArenaPro的兼容
+{
+    "imports":{
+        // "包名":"https://esm.sh/包名@版本号"或者"npm:xxx"等表达
+        // 然后在.ts文件中，import ... from "包名" 即可
+        // 如果要兼容ArenaPro，那就用npm安装一个相同的包。
+    }
+}

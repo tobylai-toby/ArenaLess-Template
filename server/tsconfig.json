@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "ESNext",
+        "module": "commonjs",
+        "strict": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true,
+        "moduleResolution": "node",
+        "baseUrl": "./",
+        "rootDir": "./",
+        "outDir": "dist", // do not change this
+        "lib": [],
+        "paths": {
+            "component": [
+                "./src/Component/Definition"
+            ],
+        },
+        
+    },
+    "include": [
+        "./**/*.ts",
+        "./**/*.d.ts",
+        "./types"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist"
+    ]
+}
